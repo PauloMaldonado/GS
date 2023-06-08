@@ -1,0 +1,21 @@
+.sobre-info-content p {
+    padding: 20px 0;
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.titulo-sobre{
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.titulo-sobre span{
+    color: rgb(26, 121, 46);
+}
+
+.subtitulo-sobre{
+    font-size: 20px;
+    margin-left: 20px;
+}

@@ -1,0 +1,16 @@
+.banner-logo-img{
+    background-image: url('../../../Ferramentas/imagens/Marca1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner-logo-img{
+        height: 35vh;
+    }
+
+}

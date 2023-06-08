@@ -1,0 +1,52 @@
+.imagensia{
+    display: grid;
+    grid-template-rows: repeat(4,15vw);
+    grid-template-columns: repeat(5.1fr);
+    grid-gap: 5px;
+}
+
+.galeria_ia{
+    width: 100%;
+    height: 100%;
+}
+
+.foto-ia-1{
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+}
+.foto-ia-2{
+    grid-row: 1 / span 2;
+    grid-column: 2 / span 1;
+}
+.foto-ia-3{
+    grid-row: 1 / span 2;
+    grid-column: 3 / span 2;
+}
+.foto-ia-4{
+    grid-row: 1 / span 1;
+    grid-column: 5 / span -1;
+}
+.foto-ia-5{
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+}
+.foto-ia-6{
+    grid-row: 2 / span 2;
+    grid-column: 5 / span -1;
+}
+.foto-ia-7{
+    grid-row: 3 / span 2;
+    grid-column: 1 / span 2;
+}
+.foto-ia-8{
+    grid-row: 3 / span 1;
+    grid-column: 3 / span 2;
+}
+.foto-ia-9{
+    grid-row: 4 / span 1;
+    grid-column: 3 / span 2;
+}
+.foto-ia-10{
+    grid-row: 4 / span -1;
+    grid-column: 5 / span 1;
+}

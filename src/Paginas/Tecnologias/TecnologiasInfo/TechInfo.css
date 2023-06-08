@@ -1,0 +1,21 @@
+.tech-info-content p {
+    padding: 20px 0;
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.titulo-tech{
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.titulo-tech span{
+    color: rgb(26, 121, 46);
+}
+
+.subtitulo-tech{
+    font-size: 20px;
+    margin-left: 20px;
+}

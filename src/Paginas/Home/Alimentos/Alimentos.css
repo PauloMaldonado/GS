@@ -1,0 +1,94 @@
+.alimentos-conteudo{
+    display: flex;
+    gap: 5%;
+}
+
+.conteudo{
+    margin-top: 100px;
+}
+
+
+.alimentos-carrossel{
+    width: 60%;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+.alimentos-carrossel img{
+    width: 100%;
+    height: 75vh;
+    border-radius: 25px;
+}
+
+.slick-prev::before,
+.slick-next::before,
+.slick-dots li.slick-active button:before{
+    color: var(--color-primary)!important;
+}
+
+.alimentos-texto p{
+    padding: 20px 0;
+}
+
+.alimentos-card-conteudo{
+    display: flex;
+    gap: 5%;
+    padding-top: 50px;
+}
+
+.alimentos-card{
+    width: 30%;
+}
+
+.alimentos-card-img{
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.alimentos-card-titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.alimentos-card p{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px ) {
+    .alimentos-conteudo{
+        flex-direction: column;
+     }
+    
+     .alimentos-carrossel{
+        width: 100%;
+        
+        padding: 0 0px;
+        
+     }
+
+     .alimentos-texto{
+        width: 100%;
+     }
+
+     .alimentos-card-conteudo{
+        flex-direction: column;
+     }
+
+     .alimentos-card{
+        width: 100%;
+     }
+
+     .alimentos-card-esquerda{
+        margin-bottom: 20px;
+     }
+     
+     .alimentos-card-direita{
+        margin-top: 20px;
+     }
+
+}

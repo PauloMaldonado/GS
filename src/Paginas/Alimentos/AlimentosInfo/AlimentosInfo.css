@@ -1,0 +1,26 @@
+.disponivel-entrega h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.heading-secundaria-retirada{
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.heading-secundaria-entrega{
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.addtocart-btn {
+    text-align: center;
+    padding: 50px 0;
+}
+

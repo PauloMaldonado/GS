@@ -1,0 +1,53 @@
+.conteudo-formulario{
+    margin-left: 25px;
+    padding-top: 50px;
+}
+
+
+
+.form-campos {
+    padding-bottom: 20px;
+}
+
+.form-campos input,
+.form-campos textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 20px;
+}
+
+.form-campos textarea {
+    height: 200px;
+}
+
+.form-campos label {
+    font-size: 14px;
+}
+
+form .nome-email {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+form .nome-email div {
+    width: 50%;
+}
+
+.bttn{
+padding: 25px  25px;
+border-radius: 5%;
+font-size: 16px;
+text-transform: capitalize;
+font-weight: 600;
+color: var(--color-white);
+background-color: var(--color-primary);
+border: none;
+cursor: pointer;
+
+}
+.bttn:hover{
+    opacity: 0.9;
+}
